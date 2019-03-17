@@ -10,10 +10,10 @@ Adds support for [React Helmet Async] to a Gatsby project.
 
 ```sh
 # Yarn
-yarn add @rhysforyou/gatsby-plugin-react-helmet-async
+yarn add react-helmet-async @rhysforyou/gatsby-plugin-react-helmet-async
 
 # npm
-npm install --save @rhysforyou/gatsby-plugin-react-helmet-async
+npm install --save react-helmet-async @rhysforyou/gatsby-plugin-react-helmet-async
 ```
 
 ## Usage
