@@ -25,3 +25,5 @@ module.exports = {
   plugins: ["@rhysforyou/gatsby-plugin-react-helmet-async"]
 };
 ```
+
+Then just use React Helmet Async as you usually would, the plugin will create the `HelmetProvider` component for you and ensure that your `<head>` element contains the correct tags when building your site.
