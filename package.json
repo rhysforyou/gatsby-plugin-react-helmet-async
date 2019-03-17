@@ -1,0 +1,37 @@
+{
+  "name": "@rhysforyou/gatsby-plugin-react-helmet-async",
+  "version": "0.1.0",
+  "description": "Use React Helmet Async with your Gatsby site",
+  "main": "index.js",
+  "homepage": "https://github.com/rhysforyou/gatsby-plugin-react-helmet-async",
+  "repository": "https://github.com/rhysforyou/gatsby-plugin-react-helmet-async.git",
+  "author": "Rhys Powell <rhys@rpowell.me>",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "react",
+    "react-helmet"
+  ],
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "babel src --out-dir . --ignore **/__tests__",
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "watch": "babel -w src --out-dir . --ignore **/__tests__",
+    "clean": "rm {gatsby-node,gatsby-ssr,common,svgo}.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "babel-preset-gatsby-package": "^0.1.4",
+    "cross-env": "^5.1.4",
+    "gatsby": "^2.1.31",
+    "react-dom": "^16.8.4",
+    "react-helmet-async": "^0.2.0",
+    "react": "^16.8.4"
+  },
+  "peerDependencies": {
+    "gatsby": "2.x",
+    "react-helmet-asynx": "0.2.x"
+  }
+}
