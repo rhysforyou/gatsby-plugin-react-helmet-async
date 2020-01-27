@@ -32,6 +32,6 @@
   },
   "peerDependencies": {
     "gatsby": "2.x",
-    "react-helmet-asynx": "0.2.x"
+    "react-helmet-async": "0.2.x"
   }
 }
